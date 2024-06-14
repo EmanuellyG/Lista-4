@@ -13,12 +13,12 @@ st.set_page_config(
 st.subheader("Uso do Pandas para análise de dados em CSV")
 
 code = '''
-df = pd.read_csv("https://raw.githubusercontent.com/WesleyInfoBr2/streamlit_Lista3/main/projetos.csv", sep=";") 
+df = pd.read_csv("https://raw.githubusercontent.com/EmanuellyG/projeto1/main/projetos-1.csv", sep=";") 
 st.dataframe(df.head(3))
 '''
 st.code(code, language='python')
 
-df = pd.read_csv("https://raw.githubusercontent.com/WesleyInfoBr2/streamlit_Lista3/main/projetos.csv", sep=";") 
+df = pd.read_csv("https://raw.githubusercontent.com/EmanuellyG/projeto1/main/projetos-1.csv", sep=";") 
 
 st.dataframe(df.head(3))
 

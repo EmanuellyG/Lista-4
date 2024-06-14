@@ -5,7 +5,7 @@ import ipeadatapy as ip
 import matplotlib.pyplot as plt
 
 st.set_page_config(
-    page_title="Lista de Exercícios 3",
+    page_title="Lista de Exercícios 4",
     page_icon="👋",
 )
 

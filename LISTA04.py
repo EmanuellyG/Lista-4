@@ -24,8 +24,8 @@ st.dataframe(df.head(23))
 
 st.write("Uso do `st.experimental_data_editor()` para edição do dataframe na tela")
 
-code = '''df = pd.read_csv(arquivo, sep=';') 
-df.head(23)'''
+code = '''colunas = ['Projeto1', 'Projeto2', 'Projeto3', 'Projeto4', 'Projeto5']
+df.groupby('ano')[colunas].sum()'''
 st.code(code, language='python')
 
 edited_df = st.experimental_data_editor(df, num_rows="dynamic")

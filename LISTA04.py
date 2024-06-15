@@ -24,7 +24,8 @@ st.dataframe(df.head(23))
 
 st.write("Uso do `st.experimental_data_editor()` para edição do dataframe na tela")
 
-code = '''edited_df = st.experimental_data_editor(df, num_rows="dynamic")'''
+code = '''df = pd.read_csv(arquivo, sep=';') 
+df.head(23)'''
 st.code(code, language='python')
 
 edited_df = st.experimental_data_editor(df, num_rows="dynamic")

@@ -9,7 +9,7 @@ st.set_page_config(
 page_icon="👋",
 )
  
-st.header("Dados do Projeto")
+st.header("PROJETO 14/06 - LISTA DE EXERCÍCIOS 4")
  
 arquivo = "https://raw.githubusercontent.com/EmanuellyG/projeto1/main/projetos-1.csv"
 df = pd.read_csv(arquivo, sep=';') 

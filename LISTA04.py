@@ -14,13 +14,13 @@ st.subheader("Uso do Pandas para análise de dados em CSV")
 
 code = '''
 df = pd.read_csv("https://raw.githubusercontent.com/EmanuellyG/projeto1/main/projetos-1.csv", sep=";") 
-st.dataframe(df.head(3))
+st.dataframe(df.head(23))
 '''
 st.code(code, language='python')
 
 df = pd.read_csv("https://raw.githubusercontent.com/EmanuellyG/projeto1/main/projetos-1.csv", sep=";") 
 
-st.dataframe(df.head(3))
+st.dataframe(df.head(23))
 
 st.write("Uso do `st.experimental_data_editor()` para edição do dataframe na tela")
 
